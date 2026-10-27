@@ -1,0 +1,13 @@
+regime,method,n,MAE_A,bias_A
+accelerating,baseline,3274,39.42,-24.28
+accelerating,linear,3274,30.99,-13.28
+accelerating,physics,3274,25.84,-9.1
+accelerating,rf,3274,5.26,-2.0
+braking,baseline,457,38.85,38.85
+braking,linear,457,24.3,-7.63
+braking,physics,457,14.64,1.14
+braking,rf,457,3.88,3.75
+coasting,baseline,1105,43.7,43.46
+coasting,linear,1105,37.98,31.02
+coasting,physics,1105,26.92,24.45
+coasting,rf,1105,6.54,2.34

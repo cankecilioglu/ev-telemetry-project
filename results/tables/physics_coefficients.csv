@@ -1,0 +1,7 @@
+Coefficient,Fitted,Prior,Meaning,Implied
+m / eta  [kg],969.7973989424012,1705.5555555555554,apparent mass,873 kg
+rho*Cd*A / (2 eta),0.6115037340446641,0.46080000000000004,aerodynamic drag,CdA = 0.917 m^2
+m*g / eta  [N],10452.578001208081,16725.78638888889,grade force,959 kg
+Crr*m*g / eta  [N],90.43839172239493,200.70943666666668,rolling resistance,Crr = 0.0095
+P_base  [W],3066.5626201759173,,base electrical load,
+P_air  [W],1147.7546549725537,,air-conditioning load,

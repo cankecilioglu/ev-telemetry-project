@@ -1,0 +1,3 @@
+# Extra tooling for exploration.ipynb (not needed by the CLI or the tests).
+-r requirements.txt
+jupyterlab>=4,<5

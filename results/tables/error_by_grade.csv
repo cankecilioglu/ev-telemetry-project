@@ -1,0 +1,13 @@
+grade_band,method,n,MAE_A,bias_A
+downhill,baseline,1191,38.32,17.34
+downhill,linear,1191,32.97,16.64
+downhill,physics,1191,21.38,-3.08
+downhill,rf,1191,5.49,1.57
+flat,baseline,2057,36.41,0.89
+flat,linear,2057,29.43,1.66
+flat,physics,2057,26.08,2.32
+flat,rf,2057,5.08,0.0
+uphill,baseline,1390,49.68,-28.71
+uphill,linear,1390,38.09,-25.32
+uphill,physics,1390,28.78,-3.16
+uphill,rf,1390,6.46,-2.93
