@@ -96,6 +96,11 @@ I = [ m·a·v + ½·ρ·C_d·A·v³ + m·g·sin(θ)·v + C_rr·m·g·v ] / (η·
 Dividing by voltage makes the equation **linear in six coefficients**. They are
 fitted with ordinary least squares on the training rows only.
 
+Assumptions: steady motion over each sample, no wheel slip, one efficiency for
+driving and regeneration, and an auxiliary load that does not depend on speed.
+Speed, acceleration, pedals and current are also checked against physical ranges;
+no row failed those checks.
+
 The fitted values are then translated back into real quantities: two independent
 mass estimates agree within 10 % (873 kg and 959 kg), `C_dA` is 0.917 m² and
 `C_rr` is 0.0095. The absolute mass is about 40 % below the published kerb mass;
@@ -138,8 +143,8 @@ lands on the pedal. In practice it has learned this car's pedal-to-current map.
 That is a valid signal, but it will not transfer to another EV as well as the
 physics model would.
 
-The physics model is the one that generalises. The forest is the one that wins on
-this dataset.
+The physics model is the one more likely to generalise. The forest is the one
+that wins on this dataset.
 
 ### 5. Where the errors are
 
